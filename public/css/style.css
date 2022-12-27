@@ -32,6 +32,10 @@ a {
     color: var(--white);
 }
 
+h3 {
+    font-size: 40px;
+}
+
 .container {
     max-width: 2000px;
 }
@@ -144,8 +148,14 @@ a {
 }
 
 .modal__close {
-    transform: translateY(-200%);
+    /* transform: translateY(-200%); */
 }
+
+.activar__modal {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+  }
 
 .close {
     position: absolute;
@@ -158,10 +168,10 @@ a {
     cursor: pointer;
 }
 
-.btn__cerrarcarro{
+#btn__cerrarcarro {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 5px;
+    right: 5px;
     font-size: 20px;
     color: rgb(225, 76, 65) !important;
     border: none;
@@ -175,10 +185,12 @@ a {
     border-left: 5px solid lightblue;
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
-  margin: 5px 0;
+  margin: 50px 30px 200px 30px;
   padding: 5px 10px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .btn__agregar:hover {
@@ -187,7 +199,13 @@ a {
 
 }
 
+#precio__total{
+    font-size: 40px;
+}
 
+.preciototal{
+    font-size: 40px;
+}
 
 .formulario {
     height: 400px;

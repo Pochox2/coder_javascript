@@ -22,7 +22,7 @@ const aceptarCriptorepetida = (criptoId) => {
         criptoRepetida.cantidad++
         const cantidadCripto = document.getElementById(`cantidad${criptoRepetida.id}`);
         cantidadCripto.innerText= `Cantidad: ${criptoRepetida.cantidad}`
-        actualizarTotalCarro;
+        actualizarTotalCarro(carro);
     }
 };
 
@@ -36,7 +36,6 @@ const ponerCriptoCarro = (cripto) => {
                     <button class="btn__eliminar" value="${cripto.id}">X</button>
                     `
     container.appendChild(div)
-    actualizarTotalCarro(carro)
 };
 
 const quitarcriptoCarro = (criptoId) => {
