@@ -136,8 +136,8 @@ h3 {
 }
 
 .modal__carro {
-    width: 40%;
-    height: 50%;
+    width: 50%;
+    height: 70%;
     text-align: center;
     display: flex;
     background-color: #FFFFFF;
@@ -147,9 +147,6 @@ h3 {
     transform: translateY(0%);
 }
 
-.modal__close {
-    /* transform: translateY(-200%); */
-}
 
 .activar__modal {
     opacity: 1;
@@ -157,16 +154,6 @@ h3 {
     z-index: 5;
   }
 
-.close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    cursor: pointer;
-}
 
 #btn__cerrarcarro {
     position: absolute;
