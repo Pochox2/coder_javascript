@@ -1,5 +1,7 @@
 let carro = []
 
+const criptos = criptoController()
+
 const criptoContainer = document.getElementById("cripto__container")
 
 criptoContainer.addEventListener("click", (e) =>{
