@@ -1,6 +1,6 @@
 let carro = []
 
-const criptos = criptoController()
+// const criptos = criptoController()
 
 const criptoContainer = document.getElementById("cripto__container")
 
