@@ -5,6 +5,12 @@ const criptoContainer = document.getElementById("cripto__container")
 criptoContainer.addEventListener("click", (e) =>{
     if (e.target.classList.contains("agregar")) {
         aceptarCriptorepetida(e.target.id)
+        Swal.fire({
+            icon:"success",
+            text:"Producto agregado al carrito",
+            showConfirmButton: false,
+            timer: 2000
+        })
     }
 });
 
@@ -100,11 +106,3 @@ const ponerTotalCarro = (cantidadTotal, precioTotal) => {
 };
 
 
-// const notificacion=document.querySelector("btn__agregar")
-// notificacion.addEventListener("click", ( => {
-//     Swal.fire({
-//         text: "Haz agregado un producto al carro con exito"
-//         icon: "success"
-//         confirmButtonText:"Ok"
-//     })
-// }))

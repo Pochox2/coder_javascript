@@ -1,5 +1,8 @@
-const ponerCriptos= () => {
+const ponerCriptos= async () => {
     const container = document.getElementById("cripto__container")
+
+    const criptos = await criptoController()
+
     criptos.forEach(cripto => {
         const div = document.createElement("div");
         div.classList.add("card__compra");
