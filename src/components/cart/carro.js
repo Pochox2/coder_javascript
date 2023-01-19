@@ -100,11 +100,11 @@ const ponerTotalCarro = (cantidadTotal, precioTotal) => {
 };
 
 
-const notificacion=document.querySelector("btn__agregar")
-notificacion.addEventListener("click", ( => {
-    Swal.fire({
-        text: "Haz agregado un producto al carro con exito"
-        icon: "success"
-        confirmButtonText:"Ok"
-    })
-}))
+// const notificacion=document.querySelector("btn__agregar")
+// notificacion.addEventListener("click", ( => {
+//     Swal.fire({
+//         text: "Haz agregado un producto al carro con exito"
+//         icon: "success"
+//         confirmButtonText:"Ok"
+//     })
+// }))
