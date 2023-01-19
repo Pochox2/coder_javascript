@@ -38,6 +38,7 @@ const ponerCriptoCarro = (cripto) => {
     container.appendChild(div)
 };
 
+
 const quitarcriptoCarro = (criptoId) => {
     const criptoIndex = carro.findIndex(cripto => cripto.id == criptoId);
     carro.splice(criptoIndex, 1);
@@ -97,3 +98,13 @@ const ponerTotalCarro = (cantidadTotal, precioTotal) => {
     contadorCarro.innerText= cantidadTotal;
     totalCompra.innerText= precioTotal; 
 };
+
+
+const notificacion=document.querySelector("btn__agregar")
+notificacion.addEventListener("click", ( => {
+    Swal.fire({
+        text: "Haz agregado un producto al carro con exito"
+        icon: "success"
+        confirmButtonText:"Ok"
+    })
+}))
