@@ -1,6 +1,6 @@
 const criptoController = async () => {
  try {
-    const response = await fetch("../../public/data/stock.json")
+    const response = await fetch("./src/data/stock.json")
     const data = await response.json()
 
     return data
