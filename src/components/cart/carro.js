@@ -1,6 +1,6 @@
 let carro = []
 
-// const criptos = criptoController()
+
 
 const criptoContainer = document.getElementById("cripto__container")
 
@@ -16,9 +16,9 @@ criptoContainer.addEventListener("click", (e) =>{
     }
 });
 
-const aceptarCriptorepetida = (criptoId) => {
+const aceptarCriptorepetida = async (criptoId) => {
     const criptoRepetida = carro.find(cripto => cripto.id == criptoId);
-
+    const criptos = await criptoController()
     if (!criptoRepetida) {
         const cripto = criptos.find(cripto => cripto.id == criptoId);
         carro.push(cripto);

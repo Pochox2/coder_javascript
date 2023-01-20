@@ -8,3 +8,4 @@ const criptoController = async () => {
     console.log(error)
  }
 };
+ 
