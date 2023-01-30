@@ -1,3 +1,5 @@
+// funcion para pintar productos en el html
+
 const ponerCriptos= async () => {
     const container = document.getElementById("cripto__container")
 

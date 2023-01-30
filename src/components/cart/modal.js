@@ -1,3 +1,5 @@
+// funciones para que el carro sea modal, es decir para que aparezca y para que se esconda
+
 
 
 const modalContainer = document.querySelector(".modal__contenedor");

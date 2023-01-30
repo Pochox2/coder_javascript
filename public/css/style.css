@@ -165,6 +165,12 @@ h3 {
     background-color: white;
 }
 
+#btn__vaciar {
+    font-size: 20px;
+    width: 150px;
+    align-self: center;
+}
+
 .agregar {
    padding: 20px;
 }
